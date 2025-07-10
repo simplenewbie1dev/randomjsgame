@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 100vh;
+    /* Full viewport height */
+    margin: 0;
+    /* Remove default margin */
+}
+
+
+#theRandomNum {
+    color: white;
+    font-size: 2em;
+}
+
+#theNumEntered {
+    text-align: center;
+    font-size: 2em;
+    border-radius: 20px;
+    border: none;
+}
+
+#submitBtn {
+    margin-top: 1em;
+    padding: 10px 20px;
+    /* Adjusts the button size */
+    border: none;
+    /* Change the border size and color */
+    background-color: white;
+    /* Button background color */
+    color: black;
+    /* Text color */
+    font-size: 16px;
+    /* Text size */
+    cursor: pointer;
+    /* Changes cursor to pointer on hover */
+    border-radius: 10px;
+    transition: transform 0.25s;
+}
+
+#submitBtn:hover {
+    background-color: lightblue;
+    transform: scale(1.05)
+}
